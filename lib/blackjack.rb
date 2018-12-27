@@ -2,13 +2,22 @@ def welcome
 puts "Welcome to the Blackjack Table"
 end
 
+<<<<<<< HEAD
 def deal_card
   card= rand(1..11)
+=======
+def deal_card (card)
+card = [rand(1..11)]
+>>>>>>> 1a3677c49df120829f2d606259fbb0c50409eb51
 return card
 end
 
 def display_card_total (total)
+<<<<<<< HEAD
 puts "Your cards add up to #{total}"
+=======
+puts "Your cards add up to #{total}"  # code #display_card_total here
+>>>>>>> 1a3677c49df120829f2d606259fbb0c50409eb51
 end
 
 def prompt_user
